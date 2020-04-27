@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config default="true" name="curvefittingline" category="opl">
+			<ref name="curvefitting.mod" type="model">
+			</ref>
+			<ref name="curvefitting.dat" type="data">
+			</ref>
+		</config>
+		<config default="false" name="curvefittingquadratic" category="opl">
+			<ref name="curvefittingquadratic.mod" type="model">
+			</ref>
+			<ref name="curvefitting.dat" type="data">
+			</ref>
+		</config>
+		<config default="false" name="logicaldesign" category="opl">
+			<ref name="logicaldesign.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="marketsharing" category="opl">
+			<ref name="marketsharing.dat" type="data">
+			</ref>
+			<ref name="marketsharing.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="tariffrates power generation" category="opl">
+			<ref name="tariffrates.mod" type="model">
+			</ref>
+			<ref name="tariffrates.dat" type="data">
+			</ref>
+		</config>
+		<config default="false" name="tariffrates2" category="opl">
+			<ref name="tariffrates2.mod" type="model">
+			</ref>
+			<ref name="tariffrates.dat" type="data">
+			</ref>
+		</config>
+		<config default="false" name="optimizingaconstraint" category="opl">
+			<ref name="optimizingaconstraint.dat" type="data">
+			</ref>
+			<ref name="optimizingaconstraint.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="distribution" category="opl">
+			<ref name="distribution.dat" type="data">
+			</ref>
+			<ref name="distribution.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="agriculturalpricing" category="opl">
+			<ref name="agriculturalpricing.dat" type="data">
+			</ref>
+			<ref name="agriculturalpricing.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="dea" category="opl">
+			<ref name="dea.dat" type="data">
+			</ref>
+			<ref name="dea.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="milkcollection" category="opl">
+			<ref name="milkcollection.dat" type="data">
+			</ref>
+			<ref name="milkcollection.mod" type="model">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

@@ -1,0 +1,59 @@
+
+
+    factories= {Liverpool,Brighton};
+    depots = {Newcastle, Birmingham, London, Exeter};
+    customers = {c1, c2, c3, c4, c5, c6};
+
+    monthlyCapacity=[150000,200000];
+    monthlyMaxThroughput= [70000,50000,100000,40000];
+    monthlyRequirement=[50000,10000,40000,35000,60000,20000];
+
+    costFactoryToDepot={
+    <Liverpool, Newcastle,   0.5,>
+    <Liverpool, Birmingham,  0.5,>
+    <Liverpool, London,      1.0,>
+    <Liverpool, Exeter ,     0.2,>
+    <Brighton,  Birmingham,  0.3,>
+    <Brighton,  London ,     0.5,>
+    <Brighton,  Exeter ,     0.2>
+    };
+
+    costDepotToCustomer=
+    {
+    <Newcastle , c2 ,1.5>,
+    <Newcastle , c3, 0.5>,
+    <Newcastle , c4 ,1.5>,
+    <Newcastle , c6, 1.0>,
+    <Birmingham ,c1, 1.0>,
+    <Birmingham, c2 ,0.5>,
+    <Birmingham, c3 ,0.5>,
+    <Birmingham, c4, 1.0>,
+    <Birmingham ,c5, 0.5>,
+    <London ,    c2, 1.5>,
+    <London,     c3 ,2.0>,
+    <London ,    c5, 0.5>,
+    <London ,    c6 ,1.5>,
+    <Exeter,     c3 ,0.2>,
+    <Exeter,     c4 ,1.5>,
+    <Exeter,     c5 ,0.5>,
+    <Exeter,     c6 ,1.5>
+    };
+
+    costFactoryToCustomer=
+    {
+    <Liverpool c1 1.0>,
+    <Liverpool c3 1.5>,
+    <Liverpool c4 2.0>,
+    <Liverpool c6 1.0>,
+    <Brighton  c1 2.0>
+    };
+
+    preferences=
+    {
+    <Liverpool, c1>,
+    <Newcastle, c2>,
+    <Birmingham,c5>,
+    <Exeter,c6>,
+    <London,c6>
+    };
+

@@ -1,0 +1,14 @@
+
+
+
+    Products={"Milk","Butter","Cheese 1","Cheese 2"};
+    Components={"Fat","Dry Matter","Water"};
+
+    use=[[4.0,9,87][80,2,18][35,30,35][25,40,35]];
+
+    domesticConsumption=[4820.0,320,210,70];
+    price=[297.0,720,1050,815];
+    elasticity=[0.4,2.7,1.1,0.4];
+    crossElasticity=[[][][0,0,0,0.1][0,0,0.4,0]];
+
+    limit=[600.0,750,maxint];

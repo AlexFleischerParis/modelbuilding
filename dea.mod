@@ -7,9 +7,14 @@
 
  DEA is a very useful tool for efficiency analysis : https://en.wikipedia.org/wiki/Data_envelopment_analysis
 
-    "Data envelopment analysis (DEA) is a nonparametric method in operations research and economics for the estimation of production frontiers. It is used to empirically measure productive efficiency of decision making units (or DMUs). Although DEA has a strong link to production theory in economics, the tool is also used for benchmarking in operations management, where a set of measures is selected to benchmark the performance of manufacturing and service operations."
-
-
+    "Data envelopment analysis (DEA) is a nonparametric method 
+    in operations research and economics for the estimation of
+    production frontiers. It is used to empirically measure 
+    productive efficiency of decision making units (or DMUs). 
+    Although DEA has a strong link to production theory in economics,
+    the tool is also used for benchmarking in operations management, 
+    where a set of measures is selected to benchmark the performance of 
+    manufacturing and service operations."
 */
 
 

@@ -65,6 +65,12 @@
 			<ref name="milkcollection.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="lostbaggage" category="opl">
+			<ref name="lostbaggage.mod" type="model">
+			</ref>
+			<ref name="lostbaggage.dat" type="data">
+			</ref>
+		</config>
 	</configs>
 	
 </project>

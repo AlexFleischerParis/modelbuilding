@@ -71,6 +71,10 @@
 			<ref name="lostbaggage.dat" type="data">
 			</ref>
 		</config>
+		<config default="false" name="proteinfolding" category="opl">
+			<ref name="proteinfolding.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
